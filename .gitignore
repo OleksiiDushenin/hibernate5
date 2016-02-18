@@ -1,0 +1,38 @@
+# Maven build folders
+target/
+
+#gradle
+build/
+.gradle
+
+# Build artefacts
+node_modules
+*.class
+
+# Package Files
+*.jar
+*.war
+*.sar
+*.ear
+
+# IntelliJ IDEA files #
+.idea
+*.iml
+*.ipr
+atlassian-ide-plugin.xml
+
+# Eclipse/STS files  (only SOME) #
+#.project
+#.classpath
+#.settings
+.DS_Store
+bin/
+
+# VIM swap files:
+*.swo
+*.swp
+*~
+
+# vaadin cache directories
+src/main/webapp/VAADIN/gwt-unitCache
+src/main/webapp/VAADIN/widgetsets
