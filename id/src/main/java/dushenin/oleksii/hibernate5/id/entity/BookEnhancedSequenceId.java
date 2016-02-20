@@ -34,10 +34,6 @@ public class BookEnhancedSequenceId {
                     @org.hibernate.annotations.Parameter(
                             name = "increment_size",
                             value = "1000"
-                    ),
-                    @org.hibernate.annotations.Parameter(
-                            name = "increment_by",
-                            value = "1000"
                     )
             })
     private Long id;
